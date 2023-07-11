@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% if number %}
+    <p><br>Your random number is: {{number}}</p>
+    {% endif %}
+<a href="{% url 'number' %}"><button class="btn btn-success ml-2" type="submit">Generate random number again</button></a>
+{% endblock %}
