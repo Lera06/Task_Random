@@ -21,3 +21,4 @@ class GetRandomNumberView(View):
         return render(request, 'random.html', context)
 
 
+
